@@ -16,14 +16,7 @@ import java.nio.charset.Charset
 import java.text.FieldPosition
 
 class MainActivity : AppCompatActivity() {
-//    int REQUEST_CODE = 20
-//
-//    // FirstActivity, launching an activity for a result
-//    fun onClick(view: View) {
-//        val i = Intent(this@ActivityOne, ActivityNamePrompt::class.java)
-//        i.putExtra("mode", 2) // pass arbitrary data to launched activity
-//        startActivityForResult(i, REQUEST_CODE)
-//    }
+
     var listOfTasks = mutableListOf<String>()
     lateinit var adapter:TaskItemAdapter
     val REQUEST_CODE = 39
